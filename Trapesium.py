@@ -1,7 +1,7 @@
 from os import system
 from time import sleep
-#fungsi clear screen
 
+#fungsi clear screen
 def cls():
     return system('cls')
 
@@ -11,7 +11,8 @@ def menu():
     print("|=======================================|")
     print("|- MENGHITUNG LUAS TRAPESIUM SAMA KAKI -|")
     print("|=======================================|")
-    
+
+#fungsi menampilkan text loading
 def loading():
     cls()
     for i in range(5):
