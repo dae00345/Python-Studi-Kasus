@@ -11,6 +11,12 @@ def menu():
     print("|=======================================|")
     print("|- MENGHITUNG LUAS TRAPESIUM SAMA KAKI -|")
     print("|=======================================|")
+    
+def loading():
+    cls()
+    for i in range(5):
+        print("Loading...>>>>>>")
+        sleep(0.2)
 
 #fungsi menampilkan output luas   
 def output():
