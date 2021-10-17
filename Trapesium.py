@@ -69,5 +69,6 @@ while ulang == 'y':
     iptB = angka("| >> Panjang sisi bawah : ")
     iptT = angka("| >> Tinggi             : ")
     luas = 1/2 * (iptA + iptB) * iptT
+    loading()
     output()
     ulang = jwb("| >> Hitung lagi? <y/t> : ")
