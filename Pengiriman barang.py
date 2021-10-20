@@ -1,4 +1,4 @@
-#validasi inputan hanya menerima angka
+
 import terminaltables as tb
 from os import system
 
