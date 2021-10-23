@@ -13,9 +13,12 @@ Ket:
 from os import system
 import terminaltables
 
-#fungsi clearscreen windows
+#fungsi clearscreen 
 def cls():
-	return system('cls')
+	command = 'clear'
+	if os.name in ('nt','dos'):
+		command = 'cls'
+	os.system(command)
 
 #validasi inputan hanya menerima angka
 def angka(pesan):
