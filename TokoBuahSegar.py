@@ -10,7 +10,7 @@ Ket:
 	Bisa melalui command prompt dengan perintah pip install terminaltables
 """
 
-from os import system
+import os
 import terminaltables
 
 #fungsi clearscreen 
